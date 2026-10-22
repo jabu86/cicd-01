@@ -1,4 +1,5 @@
 import app from './app.js';
+console.log("git changes")
 
 const port = Number.parseInt(process.env.PORT ?? '3000', 10);
 
