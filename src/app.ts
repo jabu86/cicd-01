@@ -8,6 +8,14 @@ app.get('/', (_request, response) => {
   response.type('html').send(`
     <h1>Jabu loves Nare with all his heart!!</h1>
     <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
+    <p>The application is running.</p>
     <p>Version ${version}</p>
   `);
 });
@@ -22,5 +30,4 @@ app.get('/api/version', (_request, response) => {
     version: process.env.APP_VERSION ?? 'development',
   });
 });
-
 export default app;
