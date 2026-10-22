@@ -6,7 +6,7 @@ app.get('/', (_request, response) => {
   const version = process.env.APP_VERSION ?? 'development';
 
   response.type('html').send(`
-    <h1>CI/CD Lab</h1>
+    <h1>Jabu loves Nare with all his heart!!</h1>
     <p>The application is running.</p>
     <p>Version ${version}</p>
   `);
